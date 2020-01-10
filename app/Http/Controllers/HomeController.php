@@ -33,13 +33,13 @@ class HomeController extends Controller
 //        Permission::create(['name'=>'create teacher']);
 //        Permission::create(['name'=>'create supporter']);
 //        Permission::create(['name'=>'remove teacher']);
-        Permission::create(['name' => 'remove supporter']);
+//        Permission::create(['name' => 'remove supporter']);
 
-         Role::create(['name'=> 'supporter']);
-          $supporter = Role::findById(3);
-          $supporter->givePermissionTo(Permission::findById(4));
+//         Role::create(['name'=> 'supporter']);
+//          $supporter = Role::findById(3);
+//          $supporter->givePermissionTo(Permission::findById(4));
 //        for done the relation and connect the role and permission
-        $admin = Role::findById(1);
+//        $admin = Role::findById(1);
 //        $admin->givePermissionTo('create teacher');
 //        $teacher = Role::findById(2);
 //        $teacher->givePermissionTo('create supporter');
