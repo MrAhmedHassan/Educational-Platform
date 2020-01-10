@@ -156,7 +156,7 @@
       <workItem from="1578484916336" duration="2674000" />
       <workItem from="1578504684230" duration="6116000" />
       <workItem from="1578577103004" duration="2499000" />
-      <workItem from="1578636841393" duration="1172000" />
+      <workItem from="1578636841393" duration="1757000" />
     </task>
     <servers />
   </component>
@@ -168,9 +168,9 @@
       <screen x="58" y="28" width="1308" height="740" />
     </state>
     <state x="329" y="167" width="755" height="457" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/58.28.1308.740@58.28.1308.740" timestamp="1578493424459" />
-    <state x="367" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1578577107613">
+    <state x="367" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1578645318747">
       <screen x="58" y="28" width="1308" height="740" />
     </state>
-    <state x="367" y="225" key="com.intellij.ide.util.TipDialog/58.28.1308.740@58.28.1308.740" timestamp="1578577107613" />
+    <state x="367" y="225" key="com.intellij.ide.util.TipDialog/58.28.1308.740@58.28.1308.740" timestamp="1578645318747" />
   </component>
 </project>
