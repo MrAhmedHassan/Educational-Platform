@@ -107,13 +107,18 @@ class RegisterController extends Controller
 
 //        auth()->user()->assignRole('Admin');
 //    Auth::user()->assignRole('Admin');
-        return User::create([
+        $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+'national_id'=>'123456'
 //            'avatar' =>$data['image'],
 //            $request->file('image')->store('avatars');
         ]);
+        $role = Role::where('name' , '=', 'Admin')->first();
+        //assign role to user
+        $user->assignRole([$role->id]);
+         return $user;
 
     }
 }
