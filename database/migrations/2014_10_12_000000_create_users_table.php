@@ -32,11 +32,12 @@ class CreateUsersTable extends Migration
             $table->bigInteger('national_id')->unique();
             $table->string('password');
             $table->string('avatar')->nullable();
-            $table->integer('teacher_id_supporter')->nullable();
-            $table->unsignedBigInteger('course_id')->nullable()->on('courses')->onUpdate('cascade')->onDelete('set null');
-//            $table->foreign('course_id')
-//                ->references('id')->on('courses');
-//
+            $table->unsignedBigInteger('teacher_id_supporter')->nullable()
+                ->on('users')->onUpdate('cascade')->onDelete('set null');
+            $table->foreign('teacher_id_supporter')->references('id')->on('users');
+            $table->unsignedBigInteger('course_id')->nullable()
+                ->on('courses')->onUpdate('cascade')->onDelete('set null');
+//            $table->foreign('course_id')->references('id')->on('courses');
             $table->rememberToken();
             $table->timestamps();
         });

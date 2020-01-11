@@ -59,7 +59,7 @@ class User extends Authenticatable
 
     public function supporter()
     {
-        return $this->hasMany('App\User');
+        return $this->belongsTo('App\User');
     }
 
 }
