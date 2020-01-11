@@ -29,10 +29,11 @@
     <input type="text" name="national_id" class="form-control" id="exampleFormControlInput4" placeholder="Your national_id">
   </div>
 
-  <div class="form-group">
-    <label for="exampleFormControlInput5" class='font-weight-bold'>Avatar_img</label>
-    <input type="text" name="avatar_img" class="form-control" id="exampleFormControlInput5" >
-  </div>
+  <form action="image-upload" method="POST" enctype="multipart/form-data">
+    @csrf
+    <input type="file" name="image">
+    <button type="submit">Upload</button>
+</form>
 
 
   <button type="submit" class="btn btn-success">Create</button>

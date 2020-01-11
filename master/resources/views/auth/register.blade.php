@@ -62,6 +62,12 @@
                             </div>
                         </div>
 
+ <form action="/image-upload" method="POST" enctype="multipart/form-data">
+    @csrf
+    <input type="file" name="avatar_img">
+    <button type="submit">Upload</button>
+</form>
+
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">

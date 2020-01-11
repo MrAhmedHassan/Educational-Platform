@@ -29,3 +29,7 @@ Route::get('/home/{post}/edit','HomeController@edit')->name('home/edit');
 Route::put('/home/{post}','HomeController@update')->name('home/update');
 Route::delete('/home/{post}','HomeController@destroy');
 
+//new
+Route::get('image-upload', 'ImageUploadController@imageUpload')->name('image.upload');
+Route::post('image-upload', 'ImageUploadController@imageUploadPost')->name('image.upload.post');
+
