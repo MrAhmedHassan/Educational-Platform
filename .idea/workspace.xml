@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="27501268-8ec2-4690-9a54-dc48d68b9637" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +166,8 @@
       <workItem from="1578504684230" duration="6116000" />
       <workItem from="1578577103004" duration="2499000" />
       <workItem from="1578636841393" duration="1757000" />
+      <workItem from="1578727369876" duration="13511000" />
+      <workItem from="1578757953112" duration="3203000" />
     </task>
     <servers />
   </component>
@@ -172,10 +179,10 @@
       <screen x="58" y="28" width="1308" height="740" />
     </state>
     <state x="329" y="167" width="755" height="457" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/58.28.1308.740@58.28.1308.740" timestamp="1578493424459" />
-    <state x="367" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1578645318747">
+    <state x="367" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1578757951865">
       <screen x="58" y="28" width="1308" height="740" />
     </state>
-    <state x="367" y="225" key="com.intellij.ide.util.TipDialog/58.28.1308.740@58.28.1308.740" timestamp="1578645318747" />
+    <state x="367" y="225" key="com.intellij.ide.util.TipDialog/58.28.1308.740@58.28.1308.740" timestamp="1578757951865" />
     <state x="478" y="318" width="458" height="156" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578679064988">
       <screen x="58" y="28" width="1308" height="740" />
     </state>

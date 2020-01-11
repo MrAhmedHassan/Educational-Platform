@@ -13,8 +13,9 @@
                                 {{ session('status') }}
                             </div>
                         @endif
-
+{{--        @role('Teacher')--}}
                         You are logged in!
+{{--                        @endrole--}}
                     </div>
                 </div>
             </div>

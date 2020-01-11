@@ -51,6 +51,8 @@ class HomeController extends Controller
 //        To Remove Permission
 //        $admin->revokePermissionTo('create supporter');
 //      $removeTeacher->removeRole('Admin');
+//            auth()->user()->assignRole('Admin');
+
         return view('dashboard');
     }
 }

@@ -22,6 +22,8 @@ Route::get('/user',function(){
     ');
 });
 
+Route::get('/teachers','UserController@index')->name('teachers.index');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
